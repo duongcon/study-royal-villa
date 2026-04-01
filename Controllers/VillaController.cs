@@ -23,15 +23,42 @@ namespace RoyalVilla_API.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public string GetVillaById(int id)
+        public async Task<ActionResult<Villa>> GetVillaById(int id)
         {
-            return $"Get Villa with ID: {id}";
+            try
+            {
+                if (id <= 0)
+                {
+                    return BadRequest("Invalid ID. ID must be greater than zero.");
+                }
+                else
+                {
+                    var villa = await _dbContext.Villa.FirstOrDefaultAsync(u => u.Id == Convert.ToString(id));
+                    if (villa == null)
+                    {
+                        return NotFound($"Villa with ID {id} not found.");
+                    }
+                    return Ok(villa);
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error: {ex.Message}");
+            }
         }
 
         [HttpGet("{id:int}/{name}")]
         public string GetVillaByIdAndName(int id, [FromRoute] string name)
         {
-            return $"Get Villa with ID: {id} : {name}";
+            try
+            {
+                return $"Get Villa with ID: {id} and Name: {name}";
+
+            }
+            catch (Exception ex)
+            {
+                return $"Error: {ex.Message}";
+            }
         }
     }
 }
