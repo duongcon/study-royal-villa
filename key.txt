@@ -1,0 +1,6 @@
+1. add-migration inital
+2. update-database
+3. add-migration AddVillaToDb
+4. update-database
+5. add-migration SeedVilla
+6. update-database

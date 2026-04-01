@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5299"
+    },
+    "https": {
+      "commandName": "Project",
+      "launchUrl": "saclar",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7145;http://localhost:5299"
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}
