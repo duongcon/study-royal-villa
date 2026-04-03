@@ -25,7 +25,6 @@ F:\Project Study\C#\Asp net\RoyalVilla_API\RoyalVilla_API\obj\Debug\net10.0\stat
 F:\Project Study\C#\Asp net\RoyalVilla_API\RoyalVilla_API\obj\Debug\net10.0\staticwebassets.development.json
 F:\Project Study\C#\Asp net\RoyalVilla_API\RoyalVilla_API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 F:\Project Study\C#\Asp net\RoyalVilla_API\RoyalVilla_API\obj\Debug\net10.0\swae.build.ex.cache
-F:\Project Study\C#\Asp net\RoyalVilla_API\RoyalVilla_API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 F:\Project Study\C#\Asp net\RoyalVilla_API\RoyalVilla_API\obj\Debug\net10.0\RoyalVil.8829EF8E.Up2Date
 F:\Project Study\C#\Asp net\RoyalVilla_API\RoyalVilla_API\obj\Debug\net10.0\RoyalVilla_API.dll
 F:\Project Study\C#\Asp net\RoyalVilla_API\RoyalVilla_API\obj\Debug\net10.0\refint\RoyalVilla_API.dll

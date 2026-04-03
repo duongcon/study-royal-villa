@@ -53,11 +53,25 @@ namespace RoyalVilla_API.Controllers
             try
             {
                 return $"Get Villa with ID: {id} and Name: {name}";
-
             }
             catch (Exception ex)
             {
                 return $"Error: {ex.Message}";
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Villa>> CreateVilla(Villa villa)
+        {
+            try
+            {
+                await _dbContext.Villa.AddAsync(villa);
+                await _dbContext.SaveChangesAsync();
+                return Ok(villa);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Error: {ex.Message}");
             }
         }
     }
