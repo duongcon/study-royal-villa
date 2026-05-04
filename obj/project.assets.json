@@ -3188,23 +3188,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\duong\\.nuget\\packages\\": {},
+    "C:\\Users\\HI\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project Study\\C#\\Asp net\\RoyalVilla_API\\RoyalVilla_API\\RoyalVilla_API.csproj",
+      "projectUniqueName": "D:\\Project Study\\C#\\ASP Net\\study-royal-villa\\RoyalVilla_API.csproj",
       "projectName": "RoyalVilla_API",
-      "projectPath": "F:\\Project Study\\C#\\Asp net\\RoyalVilla_API\\RoyalVilla_API\\RoyalVilla_API.csproj",
-      "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
-      "outputPath": "F:\\Project Study\\C#\\Asp net\\RoyalVilla_API\\RoyalVilla_API\\obj\\",
+      "projectPath": "D:\\Project Study\\C#\\ASP Net\\study-royal-villa\\RoyalVilla_API.csproj",
+      "packagesPath": "C:\\Users\\HI\\.nuget\\packages\\",
+      "outputPath": "D:\\Project Study\\C#\\ASP Net\\study-royal-villa\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
